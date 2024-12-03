@@ -1,6 +1,6 @@
-![](https://img.shields.io/badge/day%20📅-0-yellow)
-![](https://img.shields.io/badge/stars%20⭐-0-blue)
-![](https://img.shields.io/badge/days%20completed-0-green)
+![](https://img.shields.io/badge/day%20📅-1-yellow)
+![](https://img.shields.io/badge/stars%20⭐-2-blue)
+![](https://img.shields.io/badge/days%20completed-1-green)
 
 # AoC-2024
 
@@ -9,7 +9,7 @@ taken from my [AoC-2023 repository](https://github.com/RaphaelTarita/AoC-2023) f
 
 ### Direct links:
 
-- [Day 0](src/main/kotlin/com/rtarita/days/Day0.kt): solved, 2 stars ([input](about:blank))
+- [Day 1](src/main/kotlin/com/rtarita/days/Day1.kt): solved, 2 stars ([input](input/day1.txt))
 
 ### Contents:
 
