@@ -11,8 +11,7 @@ object Day2 : AoCDay {
     private val INCREASE_RANGE = 1..3
 
     private fun parseReports(input: String) = input.lines()
-        .map { it.split(" ") }
-        .map { report -> report.map { it.toInt() } }
+        .map { report -> report.split(' ').map { it.toInt() } }
 
     private fun checkDeltas(levels: List<Int>): Boolean {
         val deltas = levels.zipWithNext { a, b -> b - a }
