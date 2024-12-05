@@ -19,5 +19,8 @@ dependencies {
 tasks.withType<KotlinCompile>().all {
     compilerOptions {
         jvmTarget = JvmTarget.JVM_21
+        freeCompilerArgs.add("-Xwhen-guards")
+        freeCompilerArgs.add("-Xnon-local-break-continue")
+        freeCompilerArgs.add("-Xmulti-dollar-interpolation")
     }
 }
