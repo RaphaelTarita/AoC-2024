@@ -174,6 +174,8 @@ fun <T> Iterable<T>.splitAt(pos: Int): Pair<List<T>, List<T>> {
     return first to second
 }
 
+inline fun <reified E : Enum<E>> emptyEnumSet(): EnumSet<E> = EnumSet.noneOf(E::class.java)
+
 fun IntRange.containsAll(other: IntRange): Boolean {
     return first <= other.first && last >= other.last
 }
